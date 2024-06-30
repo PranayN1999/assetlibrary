@@ -1,0 +1,29 @@
+.header {
+  z-index: 99;
+  position: sticky;
+  top: 0%;
+  bottom: auto;
+  left: 0%;
+  right: 0%;
+  border-bottom: 2px solid gray;
+
+  .wrapper {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding: 0.5rem;
+  }
+
+  .logo_wrap {
+    .logo {
+      margin: 0;
+    }
+  }
+
+  .nav_menu {}
+
+  .nav_actions_wrapper {
+    display: flex;
+    gap: 0.5rem;
+  }
+}
